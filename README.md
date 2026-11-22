@@ -14,12 +14,12 @@ The API allows users to create, retrieve, update and delete student records.
 
 ## API Endpoints
 
-- **GET /** – Welcome message
-- **POST /students** – Create a new student
-- **GET /students** – Get all students
-- **GET /students/{student_id}** – Get a student by ID
-- **PUT /students/{student_id}** – Update a student
-- **DELETE /students/{student_id}** – Delete a student
+- **GET /** - Welcome message
+- **POST /students** - Create a new student
+- **GET /students** - Get all students
+- **GET /students/{student_id}** - Get a student by ID
+- **PUT /students/{student_id}** - Update a student
+- **DELETE /students/{student_id}** - Delete a student
 
 
 ## Installation and Setup
