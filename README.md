@@ -14,48 +14,12 @@ The API allows users to create, retrieve, update and delete student records.
 
 ## API Endpoints
 
-Method
-
-Endpoint
-
-Description
-
-GET
-
-/
-
-Welcome message
-
-POST
-
-/students
-
-Create a new student
-
-GET
-
-/students
-
-Get all students
-
-GET
-
-/students/{student_id}
-
-Get a student by ID
-
-PUT
-
-/students/{student_id}
-
-Update a student
-
-DELETE
-
-/students/{student_id}
-
-Delete a student
-
+- **GET /** – Welcome message
+- **POST /students** – Create a new student
+- **GET /students** – Get all students
+- **GET /students/{student_id}** – Get a student by ID
+- **PUT /students/{student_id}** – Update a student
+- **DELETE /students/{student_id}** – Delete a student
 
 
 ## Installation and Setup
@@ -91,8 +55,6 @@ Delete a student
    ```
 
 
-
-
 ## Database Configuration
 
 1. Create a PostgreSQL database named `student_management`.
@@ -119,8 +81,6 @@ Delete a student
        email VARCHAR(150) NOT NULL UNIQUE
    );
    ```
-
-
 
 
 ## Running the Application
