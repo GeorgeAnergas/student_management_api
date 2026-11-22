@@ -28,7 +28,7 @@ DELETE              /students/{student_id}          Delete a student
 1. Clone the repository:
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/GeorgeAnergas/student_management_api
    ```
 
 2. Navigate to the project folder:
