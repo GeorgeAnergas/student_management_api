@@ -12,14 +12,49 @@ The API allows users to create, retrieve, update and delete student records.
 - Uvicorn
 
 
-## API ENDPOINTS
-Method              Endpoints                       Description                    
-GET                 /                               Welcome Message
-POST                /students                       Create a new student
-GET                 /students                       Get all students
-GET                 /students/{student_id}          Get a student by ID
-PUT                 /students/{student_id}          Update a student
-DELETE              /students/{student_id}          Delete a student
+## API Endpoints
+
+Method
+
+Endpoint
+
+Description
+
+GET
+
+/
+
+Welcome message
+
+POST
+
+/students
+
+Create a new student
+
+GET
+
+/students
+
+Get all students
+
+GET
+
+/students/{student_id}
+
+Get a student by ID
+
+PUT
+
+/students/{student_id}
+
+Update a student
+
+DELETE
+
+/students/{student_id}
+
+Delete a student
 
 
 
